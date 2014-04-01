@@ -1,6 +1,9 @@
 ldpreload_patcher
 =================
 
+Small collection of function useful to patching programs at load time.
+
+
 Patch a binary on load time:
 ============================
 
@@ -9,8 +12,9 @@ Patch a binary on load time:
 3. ???
 4. PROFIT!
 
+
 Hijack a function(x86 only for the moment):
-==========================================
+===========================================
 
 1. Figure out where the function is located
 2. Use hijack_function(address_of_old_function, address_of_new_function)

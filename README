@@ -1,0 +1,18 @@
+ldpreload_patcher
+=================
+
+Patch a binary on load time:
+============================
+
+1. Figure out what and where to patch
+2. Use patch(address_to_patch, patch_to_apply, length_of_patch, mprotect_permissions), to do the patching. 
+3. ???
+4. PROFIT!
+
+Hijack a function(x86 only for the moment):
+==========================================
+
+1. Figure out where the function is located
+2. Use hijack_function(address_of_old_function, address_of_new_function)
+3. ???
+4. PROFIT!
